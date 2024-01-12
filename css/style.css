@@ -5,6 +5,10 @@
     font-family: 'Livvic', sans-serif;
 }
 
+body {
+    overflow-x: hidden  ;
+}
+
 header {
     background-color: #014E56;
     /* padding:  0 90px; */
@@ -19,6 +23,7 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* border: 1px solid #000; */
     padding: 70px 0 0 0;
 }
@@ -28,6 +33,7 @@ header {
     align-items: center;
     gap: 80px;
 }
+
 
 .nav__item  a{
     color: white;
@@ -49,8 +55,8 @@ header {
 .nav__item__page {
     display: flex;
     gap: 40px;
+    
 }
-
 .btn__header {
     font-size: 18px;
     border: 2px solid white;
@@ -58,6 +64,93 @@ header {
     color: white;
     padding: 9px 32px 10px 31px ;
     border-radius: 30px;
+}
+
+/* Menu start */
+.canvas__nav{
+    display: none;
+}
+#menu{
+    display: none;
+    font-size: 25px;
+    color: white;
+    z-index: 100;
+}
+
+
+
+@media (max-width:600px) {
+    #menu{
+        display: block;
+    }
+    
+    .nav .nav__item__page, .nav .btn__header {
+        display: none;
+    }
+
+
+    .canvas__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
+        gap: 30px;
+        
+        padding:  0 48px ;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 70%;
+        height: 100vh;
+        background-color: #F67E7E;
+        transition: all 0.3s linear;
+    } 
+
+    .nav__item__page {
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 100px;
+        
+        font-size: 18px;
+        list-style: none;
+    }
+
+    .nav__item__page a {
+        text-decoration: none;
+        color: white;
+    }
+    /* .nav__item__page {
+        position: absolute;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 372px;
+        right: -150px;
+        top: 100px;
+        width: 100%;
+    }
+
+    .nav__item__page a li{
+        font-size: 18px;
+
+    }
+
+
+    .btn__header {
+        position: absolute;
+        z-index: 100;
+        display: block;
+        right: 80px;
+        top: 200px;
+        width: 40%;
+
+    } */
+}
+@media (max-width:400px) {
+    .canvas__nav {
+        width: 100%;
+    }
 }
 
 
