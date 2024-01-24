@@ -101,7 +101,7 @@ a{text-decoration: none;}
         align-items: start;
         justify-content: flex-start;
         gap: 30px;
-        
+        z-index: 5;
         padding:  0 48px ;
         position: fixed;
         right: -100%;
@@ -330,6 +330,15 @@ a{text-decoration: none;}
         padding: 0 24px;
     }
 
+    }
+
+    @media (max-width:470px) {
+        .find__section {
+            padding-top: 80px;
+        }
+        .find__wrap .find__item h1 {
+            font-size: 40px;
+        }
     }
 
 
