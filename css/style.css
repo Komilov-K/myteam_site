@@ -64,7 +64,9 @@ header {
     color: white;
     padding: 9px 32px 10px 31px ;
     border-radius: 30px;
+    text-decoration: none;
 }
+a{text-decoration: none;}
 
 /* Menu start */
 .canvas__nav{
@@ -80,6 +82,10 @@ header {
 
 
 @media (max-width:600px) {
+    .nav {
+
+    }
+
     #menu{
         display: block;
     }
@@ -314,13 +320,17 @@ header {
     .nav {
         padding: 45px 24px 0 24px;
     }
-}
 
-
-@media (max-width:400px) {
     
-
 }
+
+
+@media (max-width:530px) {
+    .find__wrap .find__item__two p {
+        padding: 0 24px;
+    }
+
+    }
 
 
 
@@ -559,7 +569,8 @@ header {
     color: #012F34;
 }
 
-.ready__wrap button {
+.ready__wrap button, 
+.ready__wrap a {
     font-size: 18px;
     border: 2px solid #012F34;
     background: none;
@@ -707,4 +718,15 @@ header {
     }
 
 }
+
+
+@media (max-width: 765px) {
+    .myteam__card__footer__three  p {
+        color: white;
+        font-size: 15px;
+        opacity: .60;
+        text-align: center;
+    }
+}
+
 

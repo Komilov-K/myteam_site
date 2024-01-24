@@ -1,0 +1,384 @@
+.find__wrap .find__item__two {
+    width: 60% !important; 
+    /* justify-content: space-between; */
+    /* gap: 50%; */
+}
+
+.find__item__two p {
+    width: 730px;
+    margin: 40px 0 0px 0;
+    
+}
+
+@media (max-width:1220px) {
+    .find__item__two p {
+        width: 100%;
+        
+    }
+    .find__wrap {
+    }
+}
+
+@media (max-width:850px) {
+        .find__section {
+            padding: 120px 0 112px 0;
+            background: url(/img/about_header.png)  right 200px no-repeat #014E56;
+        }
+    
+    .find__item__two p {
+        width: 100%;
+        margin: 0;
+        
+    }
+ 
+}
+@media (max-width:600px) {
+        .about__section {
+            padding: 80px 24px 108px 24px ;
+            background: url(/img/about_header.png)  right 200px no-repeat #014E56;
+        }
+    
+        .about__section .find__wrap .about__item {
+            width: 100% !important;
+            padding: 0 0 50px 0 ;
+        }
+    .find__item__two p {
+        width: 100%;
+        margin: 0;
+        
+    }
+ 
+}
+@media (max-width:500px) {
+        .about__section {
+            padding: 80px 24px 108px 24px ;
+            background: url(/img/about_header.png)  right 200px no-repeat #014E56;
+        }
+
+        .about__section .find__wrap {
+            gap: 16px;
+        }
+    
+        .about__section .find__wrap .about__item {
+            width: 100% !important;
+            padding: 0 0 50px 0 ;
+        }
+    .about__section .find__item__two p {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+
+    }
+    .find__item h1 {
+        font-size: 40px;
+    }
+
+    
+}
+
+
+.meet__section {
+    background: url(/img/header_left.png) left 150px no-repeat,url(/img/header_bottom.png) bottom right 200px  no-repeat;
+    
+    padding: 120px 0 250px 0;
+    background-color:#004047;
+    
+}
+
+.meet__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 81px;
+}
+
+.meet__title h1 {
+    font-size: 48px;
+    line-height: 48px;
+    color: white;
+} 
+
+.meet__card__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.meet__card__wrap .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    width: 350px;
+    height: 253px;
+    background-color: #012F34;
+    color: white;
+
+
+}
+
+.meet__card__wrap .card img  {
+    margin: 40px 0 16px 0;
+}
+
+
+.meet__card__wrap .card h3 {
+    color: #79C8C7;
+    padding-bottom: 3px;
+}
+
+.meet__card__wrap .card::after{
+    content: "+";
+    background-color: #f67e7e;
+    color: #004047;
+    position: absolute;
+    /* width: 56px;
+    height: 56px; */
+    padding: 6px 20px 12px 19px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+    /* top: 225px;
+    left: 147px; */
+    bottom: -27px;
+}
+
+.meet__card__wrap  .six__card::after  {
+    content: "x" !important;
+    font-size: 25px;
+    padding: 8px 22px 16px 21px;
+
+    background-color: #79C8C7;
+}
+
+.meet__card__wrap  .six__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meet__card__wrap  .six__card div img{
+    padding: 8px;
+}
+
+
+
+@media (max-width:1110px) {
+    .meet__section {
+    background: url(/img/header_left.png) left top no-repeat #004047;
+    padding: 120px 0 100px 0;
+    
+}
+
+.meet__wrap {
+    gap: 48px;
+}
+
+.meet__card__wrap {
+   
+    gap: 48px 30px;
+}
+
+.meet__title h1 {
+    font-size: 38px;
+}
+
+.meet__card__wrap .card {
+    
+    width: 281px;
+    height: 281px;
+    background-color: #012F34;
+    color: white;
+
+
+}
+
+
+
+}
+
+
+@media (max-width:800px) {
+    
+
+.meet__wrap {
+    gap: 48px;
+}
+
+.meet__card__wrap {
+   
+    gap: 48px 20px;
+}
+
+.meet__title h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.meet__card__wrap .card {
+    
+    width: 281px;
+    height: 281px;
+    background-color: #012F34;
+    color: white;
+
+
+}
+
+
+
+}
+@media (max-width:400px) {
+    .meet__section {
+        background: url(/img/header_left.png) left top no-repeat #004047;
+        padding: 88px 24px;
+        
+    }
+
+.meet__wrap {
+    gap: 48px;
+}
+
+.meet__card__wrap {
+   
+    gap: 48px 20px;
+}
+
+.meet__title h1 {
+    font-size: 32px;
+
+}
+
+.meet__card__wrap .card {
+    
+    width: 327px;
+    height: 281px;
+    background-color: #012F34;
+    color: white;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+.some__section {
+    background-color: #012F34;
+    padding: 140px 40px;
+}
+
+.some__wrap {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+} 
+
+.some__title h1 {
+    font-size: 48px;
+    line-height: 48px;
+    color: white;
+}
+
+.img__wrap {
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img__wrap div img  {
+    width: 100%;
+}
+
+@media (max-width:1110px) {
+    .some__section .container {
+        margin: 0 !important;
+    }
+    
+    .some__section {
+        background-color: #012F34;
+        padding: 140px 40px;
+    }
+
+    .some__title h1 {
+        font-size: 48px;
+        line-height: 48px;
+        color: white;
+    }
+    
+
+}
+
+@media (max-width:1000px) {
+    .some__section .container {
+        margin: 0 !important;
+    }
+    
+    .some__section {
+        background-color: #012F34;
+        padding: 140px 40px;
+    }
+
+    .some__title h1 {
+        font-size: 48px;
+        line-height: 48px;
+        color: white;
+    }
+    
+    .img__wrap {
+        gap: 50px;
+    }
+    .img__wrap div img   {
+        max-width: 150px !important;
+        object-fit: contain;
+        
+    }
+
+}
+@media (max-width:800px) {
+    .some__section .container {
+        margin: 0 !important;
+    }
+    
+    .some__section {
+        background-color: #012F34;
+        padding: 80px 38px;
+    }
+    .some__wrap {
+        gap: 48px;
+    }
+     
+    .img__wrap {
+        gap: 35px;
+    }
+
+    .some__title h1 {
+        font-size: 32px;
+        line-height: 48px;
+        color: white;
+    }
+
+    
+
+}
+
+@media (max-width:600px) {
+    .img__wrap {
+        flex-direction: column;
+    }
+}
